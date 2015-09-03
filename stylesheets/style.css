@@ -1,0 +1,151 @@
+body
+{
+	color:#25313D;
+	background: #DC5A4A;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+hr{
+	border: solid white 1px;
+	border-radius:5px;
+	opacity:0.4;
+}
+@font-face{
+	font-family: "Musket";
+	src: url(fonts/Musket_regular.otf) format("otf");
+}
+@font-face{
+	font-family: "Ruluko";
+	src: url(fonts/Ruluko-Regular.ttf) format("ttf");
+}
+.musket{
+	font-family: 'Musket', sans-serif;
+}
+.ruluko{
+	font-family: 'Ruluko', sans-serif;
+	font-size:35px;
+}
+.welcome{
+	font-size:40px;
+	color:white;
+}
+.term {
+background:transparent;
+color:#25313D;
+width:50%;
+margin-left:25%;
+border-radius:10px;
+border: solid white 1px;
+}
+::-webkit-input-placeholder{
+	opacity:1;
+}
+input[type="text"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+}
+.footer{
+	font-family: 'Ruluko', sans-serif;
+	font-size:25px;
+	color:#98A4A5;
+	padding-top:3%;
+}
+.button {
+    background: transparent;
+    width:30%;
+	line-height: 60px;
+	margin-top:2%;
+    text-align: center;
+    border: solid white 1px;
+    border-radius:10px;
+    transition: all 0.8s ease-in-out 0.1s;
+}
+.button:hover{
+	background: #25313D;
+	color:white;
+	opacity:1;
+}
+img{
+	width:30px;
+	height:60px;
+	opacity:0.6;
+    transition: all 0.5s ease-in-out 0.1s;
+}
+img:hover{
+	opacity:1;
+}
+
+h1{
+	font-size:70px;
+}
+.com{
+	opacity:0.8;
+	transition: all 0.7s ease-in-out 0.1s;
+}
+.com:hover{
+	opacity:1;
+}
+.faqs{
+	color:white;
+	opacity:0.8;
+	transition: all 0.7s ease-in-out 0;
+}
+.faqs:hover{
+	color:#25313D;
+	opacity:1;
+}
+a:link {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+.ruluko{
+	font-family: 'Ruluko', sans-serif;
+	font-size:28px;
+}
+.welcome{
+	font-size:30px;
+}
+h1{
+	font-size:45px;
+}
+.footer{
+	font-size:20px;
+	margin-left:10%;
+	margin-bottom:20px;
+	padding-top:25px;
+}
+input[type="text"]
+{
+    background: rgba(0, 0, 0, 0);
+    margin:-250%;
+    border: none;
+    outline: none;
+}
+.button{
+	line-height:30px;
+	margin-top:30px;
+}
+::-webkit-input-placeholder {
+   font-size:25px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-size:25px;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-size:25px;  
+}
+
+:-ms-input-placeholder {  
+   font-size:25px;  
+}
+}
