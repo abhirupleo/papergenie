@@ -1,7 +1,7 @@
 body
 {
 	color:#25313D;
-	background: #DC5A4A;
+	background: #547BB8;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -33,6 +33,7 @@ hr{
 .welcome{
 	font-size:40px;
 	color:white;
+	margin-left:80px;
 }
 .term {
 background:transparent;
@@ -43,7 +44,8 @@ border-radius:10px;
 border: solid white 1px;
 }
 ::-webkit-input-placeholder{
-	opacity:1;
+	color:#38495C;
+	opacity:0.8;
 }
 input[type="text"]
 {
@@ -54,7 +56,7 @@ input[type="text"]
 .footer{
 	font-family: 'Ruluko', sans-serif;
 	font-size:25px;
-	color:#98A4A5;
+	color:#38495C;
 	padding-top:3%;
 }
 .button {
@@ -95,7 +97,7 @@ h1{
 .faqs{
 	color:white;
 	opacity:0.8;
-	transition: all 0.7s ease-in-out 0;
+	transition: all 0.5s ease-in-out 0s;
 }
 .faqs:hover{
 	color:#25313D;
@@ -103,6 +105,12 @@ h1{
 }
 a:link {
     text-decoration: none;
+}
+.info{
+	float:right;
+	padding:10px;
+	width:80px;
+	height:80px;
 }
 
 @media (max-width: 600px) {
@@ -113,13 +121,19 @@ a:link {
 .welcome{
 	font-size:30px;
 }
+img{
+	width:70px;
+	height:70px;
+}
 h1{
 	font-size:45px;
 }
+.welcome{
+	margin-left:30px;
+	font-size:20px;
+}
 .footer{
 	font-size:20px;
-	margin-left:10%;
-	margin-bottom:20px;
 	padding-top:25px;
 }
 input[type="text"]
